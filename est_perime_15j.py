@@ -15,21 +15,21 @@ adddate = datetime.timedelta(days=15)
 datemax = datedlc + adddate
 
 if(datemax.strftime("%Y")>dateact.strftime("%Y")):
-    print("False1")
+    print("False")
     
 elif(datemax.strftime("%Y")==dateact.strftime("%Y")):
     if(datemax.strftime("%m")>=dateact.strftime("%m")):
         if(datemax.strftime("%d")>=dateact.strftime("%d")):
-            print("False2")
+            print("False")
         
         elif(datemax.strftime("%m")>dateact.strftime("%m")):
-            print("False3")
+            print("False")
         
         else:
-            print("True1")
+            print("True")
     else:
-        print("True2")
+        print("True")
 
 else:
-    print("True3")
+    print("True")
     

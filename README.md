@@ -1,4 +1,4 @@
-# Date-de-p-remption
+# Date de péremption
 Algorithme pour déterminer si un produit est périmer
 
 TD - SCIENCES-U / EFFICOM LILLE 2019-2020 M. Ouelhadj
